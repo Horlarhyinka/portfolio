@@ -55,11 +55,8 @@ useEffect(handleScrollTo,[window.location.hash])
             </div> 
             <br></br>
             <div id="actions" style={{textAlign: "center", marginTop: "65px", marginBottom: "25px"}} >
-            <a href={Resume} download ><button className="resume" >download Resume</button></a>
-            
+            <a href={Resume} download ><button className="resume" >download Resume</button></a>  
             <Link to={"/portfolio"} ><button className="portfolio" >view Portfolio</button></Link>
-            
-
             </div>
             <Contacts />
         </div>
