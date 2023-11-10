@@ -1,0 +1,33 @@
+.certification-card{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 250px;
+    margin: 15px;
+}
+
+.certification-card .icn{
+    font-weight: 500;
+    font-size: 100px;
+    color: white;
+}
+
+.certification-card p{
+    font-size: 14px;
+    font-weight: 420;
+    padding: 2px;
+    word-wrap: break-word;
+}
+
+.certification-card a{
+    padding: 6px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.certification-card a .icn{
+    font-size: 12px;
+    color: blue;
+}

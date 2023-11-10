@@ -1,0 +1,35 @@
+.project-card{
+    display: inline-block;
+    width: 150px;
+    min-width: 150px;
+    margin: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.049);
+    text-align: center;
+}
+
+.project-card img{
+    width: 100%;
+    aspect-ratio: 0.8;
+}
+*{
+    text-decoration: none;
+}
+
+.project-card p{
+    word-wrap: break-word;
+    padding: 2px 8px;
+}
+
+.project-card .name{
+    font-size: 16px;
+    margin: 2px 0px 4px;
+    font-weight: 520;
+}
+
+.project-card .description{
+    font-size: 14px;
+    font-weight: 430;
+    margin: 0px 0px 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.664);
+}

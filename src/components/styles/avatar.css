@@ -1,0 +1,24 @@
+.avatar{
+    display: inline-flex;
+    width: 98%;
+    max-width: 350px;
+    height: 28px;
+    padding: 4px;
+}
+
+.avatar img{
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 50%;
+}
+
+.avatar p{
+    display: inline-block;
+    width: calc(100% - 30px);
+    margin: 0px;
+    font-size: 16px;
+    margin-left: 8px;
+    font-weight: 540;
+}

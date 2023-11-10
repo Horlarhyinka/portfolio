@@ -1,0 +1,88 @@
+.home{
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+.home .alias{
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 800;
+    -webkit-text-stroke-width: 0.6px;
+    color: black;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-align: left;
+
+}
+
+.home ul.stacks{
+    display: block;
+    padding-left: 0px;
+    text-align: left;
+    width: 95%;
+    max-width: 400px;
+    margin: 0px;
+}
+
+.home .stacks li{
+    display: inline-block;
+    padding: 1px 5px;
+    font-size: 16px;
+    line-height: 20px;
+    list-style: circle;
+    font-weight: 480;
+}
+
+.writeup{
+    font-size: 14px;
+    font-weight: 420;
+    padding: 4px;
+    width: 95%;
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.653);
+    text-align: left;
+}
+
+.home .writeup{
+
+    margin: 28px 0px;
+}
+
+@media screen and (min-width: 850px){
+    .writeup{
+        display: block;
+        text-align: center;
+        max-width: unset;
+    }
+
+    .home ul.stacks{
+        max-width: unset;
+    }
+    
+}
+
+.home .progressbar{
+    width: 60px;
+    margin: 6px 12px;
+    /* color: #d32a00; */
+}
+
+.home button{
+    display: inline-block;
+    margin: 6px 4px;
+    max-width: 400px;
+    width: 98%;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+.home button.resume{
+    background-color: rgb(193, 33, 33);
+}
+
+.home button.portfolio{
+    background-color: purple;
+}

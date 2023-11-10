@@ -1,0 +1,12 @@
+.contacts{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 35px 0px 10px;
+}
+
+.contacts .icn{
+    margin: 8px 12px;
+    padding: 4px;
+    font-size: 24px;
+}
