@@ -5,6 +5,7 @@ import "react-circular-progressbar/dist/styles.css"
 import { Link } from "react-router-dom";
 import handleScrollTo from "../functions/handleScrollTo";
 import Contacts from "../components/contacts";
+import Resume from "../assets/Resume.pdf"
 
 const Home = () =>{
 
@@ -54,7 +55,8 @@ useEffect(handleScrollTo,[window.location.hash])
             </div> 
             <br></br>
             <div id="actions" style={{textAlign: "center", marginTop: "65px", marginBottom: "25px"}} >
-            <button className="resume" >download Resume</button>
+            <a href={Resume} download ><button className="resume" >download Resume</button></a>
+            
             <Link to={"/portfolio"} ><button className="portfolio" >view Portfolio</button></Link>
             
 
