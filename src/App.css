@@ -26,3 +26,6 @@
   background-color: rgb(39, 39, 39);
   border-radius: 8px;
 }
+a:visited, a:active{
+  color: white;
+}
