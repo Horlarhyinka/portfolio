@@ -4,8 +4,8 @@ const projectsList:({name: string, description: string, preview_image: string, t
     description: "an e-commerce website for gadgets shopping, this site enables multiplatform shopping by also letting users browse products available on Jumia website. This project implements payment in test mode with paystack. this project also provides an admin interface which can be accessed through gadget-x.vercel.app/admin (password - \"testing\" email - \"admin@gmail.com\").", 
     
     preview_image: "https://res.cloudinary.com/lahri/image/upload/v1699483160/portfolio/wxulsmftloivaenyspeq.png", technologies: ["nodejs", "javascript", "mongodb", "redis", "cheerio", "css3", "react", ], 
-    url: "https://gedget-x.vercel.app : https://documenter.getpostman.com/view/20519100/2s93RZLpYY", 
-    github: "https://github.com/Horlarhyinka/gadget-x : https://github.com/Horlarhyinka/gadget-x-api"
+    url: "https://gedget-x.vercel.app", 
+    github: "https://github.com/Horlarhyinka/gadget-x-api"
 },
     {
     name: "Littlelemon", 
