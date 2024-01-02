@@ -3,18 +3,13 @@
 }
 
 .portfolio .sub-header{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 550;
     text-align: left;
     display: block;
+    color: rgba(0, 0, 0, 0.897);
 }
 
-.scrollable{
-    width: 98%;
-    display: inline-flex;
-    overflow-x: scroll;
-    box-sizing: border-box;
-}
 
 .portfolio{
     box-sizing: border-box;
@@ -29,12 +24,24 @@
     width: 98%;
     max-width: 450px;
     background: none;
-    border: 0.8px solid rgb(46, 46, 46);
+    border: 0.8px solid rgb(193, 193, 193);
     border-radius: 4px;
+    padding: 8px;
+}
+
+.portfolio .certifications{
+    text-align: center;
 }
 
 .portfolio textarea:focus{
     outline: none;
+}
+
+.portfolio .projects{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .portfolio button.message{
@@ -48,5 +55,14 @@
     border: none;
     border-radius: 4px;
     background-color: purple;
+    color: white;
 
+}
+
+.portfolio .writeup{
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.745);
+    word-break: keep-all;
 }

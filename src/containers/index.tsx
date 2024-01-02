@@ -26,7 +26,6 @@ const Home = () =>{
 useEffect(handleScrollTo,[window.location.hash])
 
     return <div className="home" >
-            <h1 className="alias" >WEBDAEMON</h1>
             <ul className="stacks" >
                 <li>node js</li>
                 <li>javascript</li>

@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.head h1{
+    font-size: 24px;
+    margin: 6px;
+}
+
 .head div.title{
     display: block;
 }
@@ -46,6 +51,7 @@
 .head .nav li{
     margin: 4px 18px;
     list-style: none;
+    color: black;
 }
 
 .hamburger{

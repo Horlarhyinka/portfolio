@@ -9,11 +9,12 @@ import Contacts from "../components/contacts";
 import React, { useEffect, useState } from "react";
 import handleScrollTo from "../functions/handleScrollTo";
 import aboutWriteUp from "../assets/about";
+import Head from "../components/head";
 
 const Portfolio = () =>{
 
     useEffect(handleScrollTo, [window.location.hash])
-    const textCount = 695
+    const textCount = 700
 
     const messageRef = React.createRef<HTMLTextAreaElement>()
 
@@ -32,18 +33,32 @@ const Portfolio = () =>{
 
     }
 
+
+  const [navOpen, setNavOpen] = useState<boolean>(false)
+
+  const toggleNav = () =>{
+    if(navOpen){
+      setNavOpen(false)
+    }else{
+      setNavOpen(true)
+    }
+  }
+
+
     return <div className="portfolio" >
+        <Head toggleNav={toggleNav}  />
         <Avatar name="Daniju Farouq" image={avatar} />
         <p id="about" className="writeup" >{hidden?aboutWriteUp.slice(0, textCount): aboutWriteUp}
-        <span style={{cursor: "pointer", fontWeight: "480"}} onClick={toggleHidden} > {hidden?"  ...show more": "\n show less..."}</span></p>
+        {aboutWriteUp.length > textCount && <span style={{cursor: "pointer", fontWeight: "480"}} onClick={toggleHidden} > {hidden?"  ...show more": "\n show less..."}</span>}
+        </p>
         <h1 className="sub-header" >Projects</h1>
-        <div id="projects" className="scrollable"  >
+        <div id="projects" className="projects"  >
         {
             projectsList.map((project, i)=><ProjectCard i={i} image={project.preview_image} name={project.name} description={project.description} key={i} />)
         }
         </div>
         <h1 className="sub-header" >Certifications</h1>
-        <div id="certifications" className="scrollable" >
+        <div id="certifications" className="certifications" >
         {
             certifications.map((certificate, i)=><CertificationCard name={certificate.name} link={certificate.link} key={i} />)
         }

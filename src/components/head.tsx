@@ -7,7 +7,7 @@ const Head = (props: {toggleNav: ()=>void}) =>{
         <h1>Daniju O. Farouq</h1>
         <hr className="l1" ></hr>
         <hr className="l2" ></hr>
-        <h4>Backend developer</h4>
+        <h4>Software Engineer</h4>
       </div>
       <ul className="nav" >
             <a href="/"><li>Home</li></a>

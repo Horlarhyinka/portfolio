@@ -3,9 +3,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './containers';
 import Portfolio from './containers/portfolio';
 import Project from './containers/project';
-import Head from './components/head';
+// import Head from './components/head';
 import SideNav from './components/side-nav';
 import { useState } from 'react';
+import Profile from './containers/profile';
 
 function App() {
 
@@ -21,11 +22,11 @@ function App() {
 
   return (
     <>
-    <Head toggleNav={toggleNav} />
+    {/* <Head toggleNav={toggleNav} /> */}
     {navOpen && <SideNav toggleNav={toggleNav} />}
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<Profile/>} />
       <Route path='/portfolio' element={<Portfolio/>} />
       <Route path='/projects/:projectId' element={<Project/>} />
 
