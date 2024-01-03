@@ -1,7 +1,8 @@
 const projectsList:({name: string, description: string, preview_image: string, technologies: string[], url: string, github: string })[] = [
     {
-    name: "gedget-x", 
-    description: "an e-commerce website for gadgets shopping, this site enables multiplatform shopping by also letting users browse products available on Jumia website. This project implements payment in test mode with paystack. this project also provides an admin interface which can be accessed through gadget-x.vercel.app/admin (password - \"testing\" email - \"admin@gmail.com\").", 
+    name: "gadget-x", 
+    description: `an e-commerce website for gadgets shopping, this site enables multiplatform shopping by also letting users browse products available on Jumia website. 
+    This project implements payment in test mode with paystack. this project also provides an admin interface which can be accessed through gadget-x.vercel.app/admin (password - \"testing\" email - \"admin@gmail.com\").`, 
     
     preview_image: "https://res.cloudinary.com/lahri/image/upload/v1699483160/portfolio/wxulsmftloivaenyspeq.png", technologies: ["nodejs", "javascript", "mongodb", "redis", "cheerio", "css3", "react", ], 
     url: "https://gadget-x.vercel.app", 

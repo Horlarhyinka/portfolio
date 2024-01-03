@@ -1,6 +1,4 @@
 import "./styles/portfolio.css";
-import Avatar from "../components/avatar";
-import avatar from "../assets/avatar.jpg";
 import projectsList from "../assets/projects"
 import ProjectCard from "../components/project-card";
 import CertificationCard from "../components/certification-card";
@@ -9,7 +7,7 @@ import Contacts from "../components/contacts";
 import React, { useEffect, useState } from "react";
 import handleScrollTo from "../functions/handleScrollTo";
 import aboutWriteUp from "../assets/about";
-import Head from "../components/head";
+import { Icon } from '@iconify/react';
 
 const Portfolio = () =>{
 
@@ -33,24 +31,99 @@ const Portfolio = () =>{
 
     }
 
-
-  const [navOpen, setNavOpen] = useState<boolean>(false)
-
-  const toggleNav = () =>{
-    if(navOpen){
-      setNavOpen(false)
-    }else{
-      setNavOpen(true)
-    }
-  }
-
-
     return <div className="portfolio" >
-        <Head toggleNav={toggleNav}  />
-        <Avatar name="Daniju Farouq" image={avatar} />
+        {/* <Avatar name="Daniju Farouq" image={avatar} /> */}
         <p id="about" className="writeup" >{hidden?aboutWriteUp.slice(0, textCount): aboutWriteUp}
         {aboutWriteUp.length > textCount && <span style={{cursor: "pointer", fontWeight: "480"}} onClick={toggleHidden} > {hidden?"  ...show more": "\n show less..."}</span>}
         </p>
+        <h1 className="sub-header" >Technologies</h1>
+        <div className="technologies" >
+        <ul className="stack" >
+            <h1>Backend development</h1>
+            <li>
+              <p>Nodejs</p>
+              <Icon className="icn" icon="logos:nodejs" />
+            </li>
+            <li>
+              <p>Javascript</p>
+              <Icon className="icn" icon="logos:javascript" />
+            </li>
+            <li>
+              <p>Typescript</p>
+              <Icon className="icn" icon="devicon:typescript" />
+            </li>
+            <li>
+              <p>Python</p>
+              <Icon className="icn" icon="logos:python" />
+            </li>
+            <li>
+              <p>Django</p>
+              <Icon className="icn" icon="skill-icons:django" />
+            </li>
+            <li>
+              <p>Mongodb</p>
+              <Icon className="icn" icon="devicon:mongodb-wordmark" />
+            </li>
+            <li>
+              <p>Mysql</p>
+              <Icon className="icn" icon="logos:mysql" />
+            </li>
+            <li>
+              <p>Postgresql</p>
+              <Icon className="icn" icon="devicon:postgresql-wordmark" />
+            </li>
+            <li>
+              <p>Rabbitmq</p>
+               <Icon className="icn" icon="skill-icons:rabbitmq-light" />
+            </li>
+            <li>
+              <p>Redis</p>
+              <Icon className="icn" icon="devicon:redis-wordmark" />
+            </li>
+            <li>
+              <p>Jest</p>
+              <Icon className="icn" icon="logos:jest" />
+            </li>
+            <li>
+              <p>Docker</p>
+              <Icon className="icn" icon="devicon:docker-wordmark" />
+            </li>
+            <li>
+              <p>AWS</p>
+              <Icon className="icn" icon="skill-icons:aws-light" />
+            </li>
+          </ul>
+          <ul className="stack" >
+            <h1>Frontend development</h1>
+            <li>
+              <p>React</p>
+              <Icon className="icn" icon="vscode-icons:file-type-reactjs" />
+            </li>
+            <li>
+              <p>HTML5</p>
+              <Icon className="icn" icon="logos:html-5" />
+            </li>
+            <li>
+              <p>CSS3</p>
+              <Icon className="icn" icon="logos:css-3" />
+            </li>
+            <li>
+              <p>Javascript</p>
+              <Icon className="icn" icon="logos:javascript" />
+            </li>
+            <li>
+
+            </li>
+            <li>
+              <p>Redux</p>
+              <Icon className="icn" icon="logos:redux" />
+            </li>
+            <li>
+              <p>Typescript</p>
+              <Icon className="icn" icon="devicon:typescript" />
+            </li>
+          </ul>
+        </div>
         <h1 className="sub-header" >Projects</h1>
         <div id="projects" className="projects"  >
         {

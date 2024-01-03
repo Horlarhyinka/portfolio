@@ -14,32 +14,18 @@
 }
 
 .head div.title h1{
-    font-size: 22px;
-    font-weight: 600px;
-    margin-bottom: 2.5px;
-    text-align: left;
-}
-
-.head hr{
-   width: 70%;
-   margin: 0px;
-}
-
-.head hr.l2{
-    margin-top: 2px;
-    width: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 12px 6px 0px;
 }
 
 .head h4{
-    margin: 5px 0px;
-    font-weight: 480;
-    font-size: 16;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(to right, magenta, white);
-    -webkit-background-clip: text;
-    background-clip: text;
-    text-align: leeft;
-    
+    font-size: 16px;
+    color: blueviolet;
+    padding: 0px 8px;
+    margin: 0px 2px;
+    font-weight: 400;
 }
 
 .head .nav{

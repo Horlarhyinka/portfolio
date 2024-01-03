@@ -4,9 +4,7 @@ import {Icon} from "@iconify/react"
 const Head = (props: {toggleNav: ()=>void}) =>{
     return <div className="head" >
       <div className="title" >
-        <h1>Daniju O. Farouq</h1>
-        <hr className="l1" ></hr>
-        <hr className="l2" ></hr>
+        <h1>Daniju Farouq</h1>
         <h4>Software Engineer</h4>
       </div>
       <ul className="nav" >

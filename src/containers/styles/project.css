@@ -1,9 +1,11 @@
 .project{
     box-sizing: border-box;
     padding: 8px;
-    display: block;
+    display: inline-block;
     width: 100%;
     position: relative;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
 h1, p, a, li{
@@ -14,6 +16,7 @@ h1, p, a, li{
     width: 98%;
     max-width: 350px;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 .project .image-wrapper img{
@@ -29,7 +32,7 @@ h1, p, a, li{
 
 .project .image-wrapper li{
     display: inline-block;
-    margin: 8px 6px;
+    /* margin: 8px 6px; */
     padding: 4px 12px;
     background-color: rgba(255, 255, 255, 0.076);
     font-size: 14px;
@@ -39,10 +42,11 @@ h1, p, a, li{
 .project .texts-wrapper{
     display: inline-block;
     top: 0px;
-    padding: 16px;
+    margin-left: 16px;
     width: 98%;
     max-width: 350px;
     position: absolute;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 760px){
@@ -53,14 +57,18 @@ h1, p, a, li{
 
 .project .texts-wrapper h1{
     margin: 4px 4px 12px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.845);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .project .texts-wrapper p{
     margin: 4px 4px 8px;
     font-size: 14px;
-    font-weight: 480;
+    font-weight: 320;
     letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.598);
 }
 
 .project .link{

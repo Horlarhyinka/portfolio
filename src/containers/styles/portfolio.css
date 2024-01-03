@@ -8,6 +8,7 @@
     text-align: left;
     display: block;
     color: rgba(0, 0, 0, 0.897);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -65,4 +66,42 @@
     font-size: 16px;
     color: rgba(0, 0, 0, 0.745);
     word-break: keep-all;
+}
+
+.portfolio .stack{
+    display: inline-block;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.087);
+    text-align: left;
+    padding: 16px;
+    background-color: white;
+    margin: 16px;
+    vertical-align: top;
+    width: 95%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+.portfolio .stack li{
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.portfolio .stack .icn{
+    font-size: 28px;
+    margin-top: 14px;
+}
+
+.portfolio .stack h1{
+    font-size: 18px;
+    padding: 8px 0px;
+    margin: 4px 0px;
+    font-weight: 480;
+}
+
+.portfolio .technologies{
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
 }

@@ -4,9 +4,9 @@
     height: calc(100vh - 100px);
     text-align: center;
     position: absolute;
-    top: 100px;
+    top:80px;
     left: 0px;
-    /* background-color: rgba(0, 0, 0, 0.905); */
+    background-color: white;
     z-index: 2;
 
 }
@@ -24,7 +24,7 @@
 .side-nav li{
     width: 100%;
     padding: 8px;
-
+    color: black;
 }
 
 .side-nav li:hover{
@@ -34,12 +34,12 @@
 .side-nav .icn{
     font-size: 42px;
     margin-top: 35px;
+    color: rgba(0, 0, 0, 0.344);
 }
 
 .side-nav .icn:hover{
-    font-size: 44px;
     transition: 400ms;
-
+    color: rgba(0, 0, 0, 0.682);
 }
 
 @media screen and (max-width: 860px){
