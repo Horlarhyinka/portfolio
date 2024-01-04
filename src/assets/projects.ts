@@ -21,7 +21,7 @@ const projectsList:({name: string, description: string, preview_image: string, t
     preview_image: "https://res.cloudinary.com/lahri/image/upload/v1699483157/portfolio/oeoe3tnxurru90dyluay.png", 
     technologies: ["nodejs", "typescript", "mongodb", "socket.io"], 
     url: "https://documenter.getpostman.com/view/20519100/2s93Xwyih3", 
-    github: "https://github.com/Horlarhyinka/gadget-x-api"
+    github: "https://github.com/Horlarhyinka/expert"
 },
     {
     name: "bug tracker", 
