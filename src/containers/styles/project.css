@@ -1,6 +1,7 @@
 .project{
     box-sizing: border-box;
     padding: 8px;
+    margin-top: 24px;
     display: inline-block;
     width: 100%;
     position: relative;
@@ -8,13 +9,9 @@
     box-sizing: border-box;
 }
 
-h1, p, a, li{
-    word-wrap: break-word;
-}
-
 .project .image-wrapper{
     width: 98%;
-    max-width: 350px;
+    max-width: 450px;
     display: inline-block;
     box-sizing: border-box;
 }
@@ -32,43 +29,37 @@ h1, p, a, li{
 
 .project .image-wrapper li{
     display: inline-block;
-    /* margin: 8px 6px; */
+    margin: 8px 6px;
     padding: 4px 12px;
-    background-color: rgba(255, 255, 255, 0.076);
+    background-color: rgba(0, 0, 0, 0.123);
     font-size: 14px;
     border-radius: 18px;
 }
 
 .project .texts-wrapper{
     display: inline-block;
-    top: 0px;
     margin-left: 16px;
-    width: 98%;
-    max-width: 350px;
-    position: absolute;
+    width: 95%;
+    max-width: 450px;
     box-sizing: border-box;
-}
-
-@media screen and (max-width: 760px){
-    .project .texts-wrapper{
-        position: relative;
-    }
+    vertical-align: top;
 }
 
 .project .texts-wrapper h1{
     margin: 4px 4px 12px;
     font-size: 16px;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.845);
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .project .texts-wrapper p{
     margin: 4px 4px 8px;
     font-size: 14px;
-    font-weight: 320;
+    font-weight: 380;
     letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 0.598);
+    word-wrap: break-word;
 }
 
 .project .link{

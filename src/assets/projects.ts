@@ -29,6 +29,13 @@ const projectsList:({name: string, description: string, preview_image: string, t
     preview_image: "https://res.cloudinary.com/lahri/image/upload/v1699483157/portfolio/oeoe3tnxurru90dyluay.png", technologies: ["nodejs", "typescript", "mongodb", "node-cron", "JWT"], 
     url: "https://documenter.getpostman.com/view/20519100/2s93JzMLfS", 
     github: "https://github.com/Horlarhyinka/bug-tracker"
-},]
+},{
+    name: "blogy",
+    description: "Blogy Microservices API is a cutting-edge Node.js project designed for building a scalable and modular blog platform. Leveraging a microservices architecture, this API consists of specialized services, including authentication, blog management, proxy routing, registry, email notifications, and newsletters. With over 4 years of experience in software engineering, I led the development of this project, emphasizing robustness, security, and flexibility. The microservices enable seamless communication, ensuring efficient and independent functionality. As a passionate learner, I continuously integrate emerging technologies, industry best practices, and diverse cultural perspectives, contributing to the project's adaptability and growth.",
+    preview_image: "https://res.cloudinary.com/lahri/image/upload/v1699483157/portfolio/oeoe3tnxurru90dyluay.png", technologies: ["nodejs", "typescript", "mongodb", "rabbitmq", "microservice"], 
+    url: "https://documenter.getpostman.com/view/20519100/2s9YsGhDUu", 
+    github: "https://github.com/Horlarhyinka/blogy"
+}
+]
 
 export default projectsList;

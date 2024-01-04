@@ -12,4 +12,8 @@ export default [
         name: "Microsoft digital Nigeria, software development fundamentals",
         link: "https://drive.google.com/file/d/1FRplpmC_mzbIBH4UwD5so5_6JCcAR0h0/view"
     },
+    {
+        name: "Y-Combinator software engineer virtual internship",
+        link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Y%20Combinator/oRMogWRHeewqHzA7u_Y%20Combinator_PvTxi4Sh5FAiZ5beJ_1703976565627_completion_certificate.pdf"
+    }
 ]
