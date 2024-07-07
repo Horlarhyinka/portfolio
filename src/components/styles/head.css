@@ -14,10 +14,11 @@
 }
 
 .head div.title h1{
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 18px;
     margin: 12px 6px 0px;
+    color: rgb(0, 162, 255);
 }
 
 .head h4{
@@ -25,7 +26,7 @@
     color: blueviolet;
     padding: 0px 8px;
     margin: 0px 2px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .head .nav{
@@ -37,7 +38,8 @@
 .head .nav li{
     margin: 4px 18px;
     list-style: none;
-    color: black;
+    color: rgb(0, 64, 255);
+    font-weight: 600;
 }
 
 .hamburger{

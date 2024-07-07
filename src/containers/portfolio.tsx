@@ -138,7 +138,7 @@ const Portfolio = () =>{
         </div>
         <div id="contact" >
         <h1 className="sub-header" >contact me</h1>
-        <p className="writeup" style={{textAlign: "left"}} >I'm available for hire, whether full-time, part-time, or on a contract basis. Let's connect and embark on exciting tech adventures together!</p>
+        <p className="writeup" style={{textAlign: "left"}} >I am available for full-time/part-time/contract remote or on-site role.</p>
         <h1 className="sub-header" >send a message</h1>
         <textarea ref={messageRef} name="message" id="message" rows={4} ></textarea>
         <br></br>
