@@ -1,3 +1,2 @@
 export default `
-Hi 👋, My name is Farouq Daniju, I am a backend developer with 4 years of experience in API development, Database management, and cloud computing. I am well-versed in Javascript, typescript, and python,I have excellent problem solving and communication skills and I perorm well as a team player and a team leader. I am currently looking forward to join a team with fast-paced, dynamic environment, and room for growth as a backend developer.
-`
+Hi 👋, I'm Farouq Daniju, a backend developer with 4 years of experience specializing in API development, database management, AI/ML and cloud computing. I am proficient in JavaScript, TypeScript, and Python. With excellent problem-solving and communication skills, I excel both as a team player and a team leader. I am eager to join a fast-paced, dynamic team where I can contribute to innovative solutions.`
